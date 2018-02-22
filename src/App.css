@@ -1,0 +1,101 @@
+.game {
+   padding: 200px;
+}
+
+.controls {
+   position: absolute;
+}
+
+.pad {
+   width: 300px;
+   height: 300px;
+   position: absolute;
+   left: 50px;
+   top: 10px;
+}
+
+.button {
+   height: 40px;
+   width: 40px;
+   font-weight: bold;
+   line-height: 40px;
+   position: absolute;
+   border: none;
+   border-radius: 3px;
+   background-color: #777777;
+}
+
+.button:hover {
+   background-color: #aaaaaa;
+}
+
+.button--left {
+   top: 40px;
+   left: 0px;
+}
+
+.button--right {
+   top: 40px;
+   left: 80px;
+}
+
+.button--up {
+   top: 0px;
+   left: 40px;
+}
+
+.button--down {
+   top: 80px;
+   left: 40px;
+}
+
+.scoreboard {
+   padding-left: 5px;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.box {
+   border: 1px solid #555;
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+}
+
+.bg--lightgray {
+   background-color: lightgray;
+}
+.bg--lightyellow {
+   background-color: lightyellow;
+}
+.bg--lightgreen {
+   background-color: lightgreen;
+}
+.bg--lightblue {
+   background-color: lightblue;
+}
+.bg--lightred {
+   background-color: lightred;
+}
+.bg--yellow {
+   background-color: yellow;
+}
+.bg--green {
+   background-color: green;
+}
+.bg--blue {
+   background-color: blue;
+}
+.bg--orange {
+   background-color: orange;
+}
+.bg--red {
+   background-color: red;
+}
+.bg--darkgreen {
+   background-color: darkgreen;
+}
+.bg--darkred {
+   background-color: darkred;
+}
