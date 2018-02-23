@@ -307,7 +307,8 @@ class Board extends React.Component {
 
 const App = Client({
    game: Game2048,
-   board: Board
+   board: Board,
+   debug: false
 })
 
 export default App;
